@@ -18,7 +18,7 @@
   <Company>HaikuSharp</Company>
   <Copyright>© 2025 $(Company)</Copyright>
   <RepositoryType>git</RepositoryType>
-  <PackageProjectUrl>https://github.com/HaikuSharp/Simple-Dependency-Injection</PackageProjectUrl>
+  <PackageProjectUrl>https://github.com/HaikuSharp/Runtime-Event-Generator</PackageProjectUrl>
   <RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
  </PropertyGroup>
