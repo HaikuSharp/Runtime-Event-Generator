@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+ </PropertyGroup>
+ <ItemGroup>
+   <PackageReference Include="Sugar.Object.Extensions" Version="1.0.5" />
+ </ItemGroup>
+ <ItemGroup>
+  <ProjectReference Include="..\REG.Exceptions\REG.Exceptions.csproj" />
+ </ItemGroup>
+</Project>
