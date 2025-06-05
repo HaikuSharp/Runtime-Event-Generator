@@ -10,7 +10,7 @@ public class MethodOverride : IMethodOverride {
  private readonly IntPtr m_OverriddenPtr;
  private readonly ulong m_OffsetedA;
  private readonly ulong m_OffsetedB;
- public MethodOverride(MethodInfo original, MethodInfo destination) {
+ internal MethodOverride(MethodInfo original, MethodInfo destination) {
   this.m_Original = original;
   this.m_Destination = destination;
   this.m_OriginalPtr = original.MethodHandle.GetFunctionPointer();
